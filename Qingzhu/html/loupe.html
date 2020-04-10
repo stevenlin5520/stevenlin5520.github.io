@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "import" href = "head.html"/>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src="../js/jquery_3.1.1.js"></script>
+    <script src="../js/zzsc.js"></script>
+    <script src="../js/jquery.colorbox-min.js"></script>
+    <link rel="stylesheet" href="../css/zzsc.css">
+    <style>
+        iframe{
+            margin-top: -200px;
+        }
+    </style>
+</head>
+<body>
+<div class="head_out">
+    <div class="head">
+        <div class="head_left">
+            <span class="logo"><img src="../image/logo.png" height="36" width="142"/></span>
+            <ul class="outer_ul">
+                <li>
+                    <a href="#" id="head_look">查看所有类型</a>
+                </li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">所有产品</a></li>
+                <li><a href="#">博客</a></li>
+                <li><a href="#">文章列表</a></li>
+            </ul>
+        </div>
+        <div class="head_right">
+            <span class="ling" style="margin-left: -15px;font-weight: 700">0</span>
+            <a href="cart.html"><span class="icon iconfont icon-gouwuche"></span></a>
+            <a href="./register.html" target="_parent">注册</a>
+            <span>|</span>
+            <a href="logo.html" target="_parent">登录</a>
+            <span class="icon iconfont icon-sousuo" style="margin-right: 22%"></span>
+        </div>
+    </div>
+    <div class="head_top">
+        <div class="head_top_center">
+            <div class="center_one">
+                <ul class="inner_ul">
+                    <li><a href="#">不锈钢</a></li>
+                    <li><a href="#">原料水泥</a></li>
+                    <li><a href="#">塑料</a></li>
+                    <li><a href="#">木质</a></li>
+                    <li><a href="#">陶瓷</a></li>
+                </ul>
+            </div>
+            <div class="center_one">
+                <div><a href="#"><img src="../image/top1.png"/></a></div>
+                <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="#" class="cha3"><span>查看详情</span></a>
+            </div>
+            <div class="center_one">
+                <div><a href="#"><img src="../image/top2.png"/></a></div>
+                <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="#" class="cha3"><span>查看详情</span></a>
+            </div>
+            <div class="center_one">
+                <div><a href="#"><img src="../image/top3.png"/></a></div>
+                <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="#" class="cha3"><span>查看详情</span></a>
+            </div >
+        </div>
+    </div>
+</div>
+<script>
+    $("#head_look").mouseenter(function () {
+        $(".head_top").css("height",380).show();
+    });
+    $(".head_top").mouseleave(function () {
+        $(".head_top").hide();
+    })
+</script>
+<!--中间部分-->
+<div class="loupe_center">
+    <div class="loupe_out">
+        <div class="loupe_inner">
+            <div class="center_down">
+                <a href="index.html">首页</a>><a href="javascript:void(0)">所有商品</a>><a href="javascript:void 0">一个花瓶</a>
+            </div>
+            <hr style="color: #ddd;width: 98%;margin: -10px auto 20px">
+            <div class="loupe">
+                <div class="loupe_left">
+                    <div class="con-FangDa" id="fangdajing">
+                        <div class="con-fangDaIMg">
+                            <!-- 正常显示的图片-->
+                            <img src="../image/top1.png"/>
+                            <!-- 滑块-->
+                            <div class="magnifyingBegin"></div>
+                            <!-- 放大镜显示的图片 -->
+                            <div class="magnifyingShow">
+                                <img src="../image/top1.png"/>
+                            </div>
+                        </div>
+                        <ul class="con-FangDa-ImgList">
+                            <!-- 图片显示列表 -->
+                            <li class="active"><img src="../image/top1.png" data-bigimg="../image/top1.png"></li>
+                            <li><img src="../image/top2.png" data-bigimg="../image/top2.png"></li>
+                            <li><img src="../image/top3.png" data-bigimg="../image/top3.png"></li>
+                            <li><img src="../image/subject1_1.png" data-bigimg="../image/subject1_1.png"></li>
+                            <li><img src="../image/subject1_2.png" data-bigimg="../image/subject1_2.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="loupe_right">
+                    <div class="loupe_right_two">
+                        <div class="loupe_right_two_one">
+                            <h1 style="font-size: 18px">一个茶壶</h1>
+                            <p>精选材料,做工精细</p>
+                            <span>$450</span><span>已售0件</span>
+                        </div>
+                        <hr>
+                        <div class="loupe_right_two_two">
+                            <p style="font-size: 14px;margin-top: 20px">选择数量</p>
+                            <form action="cart.html" method="post">
+                                <div>
+                                    <span class="loupe_sub">-</span>
+                                    <span class="loupe_count">1</span>
+                                    <span class="loupe_add">+</span>
+                                </div>
+                                <span>件(库存2344件)</span><br>
+                                <input type="submit" value="加入购物车">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="color: #ddd;width: 98%;margin: 580px auto 20px">
+        </div>
+    </div>
+</div>
+<iframe src="down.html" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
+<script>
+    <!--数量的加减-->
+    $(".loupe_right_two_two").on("click",".loupe_add",function () {
+        var count = parseInt($(this).siblings(".loupe_count").html())+1;
+        $(this).siblings(".loupe_count").html(count);
+    });
+    $(".loupe_right_two_two").on("click",".loupe_sub",function () {
+        var count = parseInt($(this).siblings(".loupe_count").html())-1;
+        if(count<1){
+            alert("数量不能低于1");
+        }else
+            $(this).siblings(".loupe_count").html(count);
+    });
+</script>
+</body>
+</html>

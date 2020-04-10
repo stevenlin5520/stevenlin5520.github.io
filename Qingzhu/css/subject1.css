@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.subject1{
+    width:100%;
+    height: 500px;
+}
+/*包装图片+箭头的DIV*/
+.subject1 .subject1_down{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+    height: 500px;
+    text-align: center;
+}
+
+/*字体图标*/
+.icon-fanhui-l,.icon-gengduo{
+    position: absolute;
+    font-size: 28px;
+    height: 130px;
+    top: 180px;
+    line-height: 30px;
+    margin-top: -15px;
+    color: #999;
+}
+.icon-fanhui-l{
+    left: -60px;
+}
+.icon-gengduo{
+    right: -60px;
+}
+.icon-gengduo:hover,.icon-fanhui-l:hover{
+    color: #666666;
+}
+.subject1 .subject1_down .subject1_tu .subject1_tu_bao{
+    position: relative;
+    width: 2200px;
+    transition:all 1s;
+}
+/*包装图片的DIV*/
+.subject1 .subject1_down .subject1_tu{
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.subject1 .subject1_down .subject1_tu .subject1_tu_one{
+    position: relative;
+    float: left;
+    width: 285px;
+    height: 365px;
+}
+.subject1 .subject1_tu .subject1_tu_one a{
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+}
+/*图片的a*/
+.subject1 .subject1_tu .subject1_tu_one .one1{
+    position: absolute;
+    padding: 0 5px;
+    width: 95%;
+    display: block;
+}
+.subject1 .subject1_tu .one1 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*图片下面的字*/
+.subject1 .subject1_tu .subject1_tu_one .two1{
+    position: absolute;
+    padding: 0 5px;
+    width: 95%;
+    display: block;
+    line-height: 20px;
+    margin-bottom: -40px;
+    text-align: center;
+    margin-top: 100%;
+}
+.subject1 .subject1_tu .two1 i{
+    display: block;
+    padding-bottom: 3px;
+    max-height: 40px;
+    width: 80%;
+    text-align: center;
+    margin: 10px auto 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+}
+.subject1 .subject1_tu .two1 span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.subject1 .subject1_tu_one .font{
+    color: black;
+}
+.subject1 .subject1_tu_one .money{
+    color: red;
+}
+

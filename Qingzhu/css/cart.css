@@ -1,0 +1,86 @@
+.cart_out{
+    position: relative;
+    width: 100%;
+    margin-top: 68px;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: rgba(221,221,221,0.5);
+}
+.cart_out input:nth-child(1){
+    margin-left: 20px;
+}
+.cart_out .cart_inner{
+    width: 1140px;
+    margin: 10px auto;
+}
+.cart_inner_car{
+    display: block;
+    height: 40px;
+    margin: 40px 0 20px 0;
+    font-size: 30px;
+}
+.cart_out_one{
+    width: 1140px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+/*设置购物出内元素的边距*/
+.cart_out_one .img ,.cart_out_two .img,.cart_out_three .delsel{
+    display: inline-block;
+    width: 600px;
+}
+.cart_out_two li{
+    list-style: none;
+    height: 100px;
+    line-height: 100px;
+    /*background-color: #fffbea;*/
+    background-color: white;
+    margin: 10px auto;
+    width: 1140px;
+    border: 1px solid #dddddd;
+}
+.cart_out_two .img img{
+    width: 60px;
+    height: 60px;
+    margin:10px 10px 0 5px;
+}
+.cart_out_one .form_top,.cart_out_two span{
+    margin-right: 70px;
+}
+.cart_out_two .innerBor{
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    margin-right: 40px;
+    margin-left: -10px;
+    background-color: white;
+}
+.cart_out_two .innerBor a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+}
+.cart_out_two .innerBor span{
+    margin: 0 20px;
+
+}
+.cart_out_three_out{
+    width: 100%;
+    height: 100px;
+}
+.cart_out_three{
+    height: 100px;
+    width: 1140px;
+    border:  1px solid #ddd;
+    background-color: white;
+    line-height: 100px;
+    margin: 0 auto;
+}
+.cart_out_three p{
+    display: inline-block;
+    margin-right: 100px;
+}

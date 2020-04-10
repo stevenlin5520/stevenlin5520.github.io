@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>青竹_head</title>
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src="../js/jquery_3.1.1.js"></script>
+</head>
+
+<body>
+<div class="head_out">
+    <div class="head">
+        <div class="head_left">
+            <span class="logo"><img src="../image/logo.png" height="36" width="142"/></span>
+            <ul class="outer_ul">
+                <li>
+                    <a href="#" id="head_look">查看所有类型</a>
+                </li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">所有产品</a></li>
+                <li><a href="#">博客</a></li>
+                <li><a href="#">文章列表</a></li>
+            </ul>
+        </div>
+        <div class="head_right">
+            <span class="ling" style="margin-left: -15px;font-weight: 700">0</span>
+            <a href="cart.html"><span class="icon iconfont icon-gouwuche"></span></a>
+            <a href="./register.html" target="_parent">注册</a>
+            <span>|</span>
+            <a href="logo.html" target="_parent">登录</a>
+            <span class="icon iconfont icon-sousuo" style="margin-right: 22%"></span>
+        </div>
+    </div>
+    <div class="head_top">
+        <div class="head_top_center">
+            <div class="center_one">
+                <ul class="inner_ul">
+                    <li><a href="#">不锈钢</a></li>
+                    <li><a href="#">原料水泥</a></li>
+                    <li><a href="#">塑料</a></li>
+                    <li><a href="#">木质</a></li>
+                    <li><a href="#">陶瓷</a></li>
+                </ul>
+            </div>
+            <div class="center_one">
+                <div><a href="cart.html"><img src="../image/top1.png"/></a></div>
+                <div class="b"><a href="cart.html">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="cart.html" class="cha3"><span>查看详情</span></a>
+            </div>
+            <div class="center_one">
+                <div><a href="cart.html"><img src="../image/top2.png"/></a></div>
+                <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="cart.html" class="cha3"><span>查看详情</span></a>
+            </div>
+            <div class="center_one">
+                <div><a href="cart.html"><img src="../image/top3.png"/></a></div>
+                <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="cart.html" class="cha3"><span>查看详情</span></a>
+            </div >
+        </div>
+    </div>
+
+</div>
+<script>
+    $("#head_look").mouseenter(function () {
+        $(".head_top").css("height",380).show();
+    });
+    $(".head_top").mouseleave(function () {
+        $(".head_top").hide();
+    })
+</script>
+</body>
+</html>

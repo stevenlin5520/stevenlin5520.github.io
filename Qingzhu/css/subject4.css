@@ -1,0 +1,111 @@
+.tu4{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1142px;
+    margin-top: 15px;
+    height: 358px;
+}
+.one4,.three4{
+    position: relative;
+    display: block;
+    float: left;
+    overflow: hidden;
+    height: 358px;
+}
+/*三个板块的宽度*/
+.one4{
+    width: 43%;
+}
+.two4_1,.two4_2{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+    display: block;
+    width: 36%;
+    height: 50%;
+}
+.three4{
+    float: right;
+    width: 19%;
+    margin-top: -178px;
+}
+.one4 img.two4 img,.three4 img{
+    width: 100%;
+    transition:2.5s ;
+}
+.one4 img,.three4 img{
+    height: 100%;
+}
+.one4:hover img,.two4_1:hover img,.two4_2:hover img,.three4:hover img{
+    transform: scale(1.2);
+    transition:2.5s ;
+}
+.one4:hover .one44::before,.two4_1:hover .two44_1::before,.two4_2:hover .two44_2::before,.three4:hover .three44:before{
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    bottom: -2px;
+    left: -10px;
+    border: 2px solid white;
+    content: '';
+    pointer-events: none;
+    /*animation: border 1s forwards;*/
+    transform: scale(.9);
+    transition: all 2s;
+}
+/*白线*/
+/*@keyframes border {
+    0%{
+        transform: scale(0.9.5);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}*/
+.tu4 .five{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1142px;
+    margin-top: 15px;
+    height: 200px;
+}
+.tu4 .five .subject_five_li{
+    position: relative;
+    margin-right: 2%;
+    list-style: none;
+    float: left;
+    width: 18.4%;
+    height: auto;
+}
+.tu4 .five .subject_five_li span{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(102,102,102,0.3);
+}
+/*图片*/
+.tu4 .five .subject_five_li img{
+    margin: 0 auto;
+    width: 100%;
+
+    height: auto;
+}
+.tu4 .five .subject_five_li img:hover{
+    /*transform: translate(-30%,0)*/
+}
+
+.tu4 .five .subject_five_li em{
+    color: #5d5d5d;
+    /*font: 14px/15px Microsoft Yahei;*/
+    font-size: 14px;
+    line-height: 15px;
+    font-family: "Microsoft Yahei";
+    height: 15px;
+    display: block;
+    overflow: hidden;
+    padding: 0 5px;
+    margin-top: 5px;
+    text-align: center;
+}

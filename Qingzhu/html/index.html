@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>青竹_index</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/title.css">     <!--每个板块的标题-->
+    <link rel="stylesheet" href="../css/head.css">           <!--头部-->
+    <link rel="stylesheet" href="../css/subject1.css">
+    <link rel="stylesheet" href="../css/subject2.css">
+    <link rel="stylesheet" href="../css/subject3.css">
+    <link rel="stylesheet" href="../css/subject4.css">    <!--样式-->
+    <link rel="stylesheet" href="../css/subject5.css">
+    <link rel="stylesheet" href="../css/down.css">           <!--尾部-->
+    <link rel="stylesheet" href="../css/iconfont.css">          <!--字体样式-->
+    <link rel = "import" href = "head.html"/>    <!--最上面的标题栏-->
+    <link rel = "import" href = "down.html"/>
+    <script src="../js/jquery_3.1.1.js"></script>
+    <link rel="stylesheet" href="../css/head_down.css">
+
+    <!--最下面的尾部-->
+</head>
+<body>
+<div class="head_out">
+    <div class="head">
+        <div class="head_left">
+            <span class="logo"><img src="../image/logo.png" height="36" width="142"/></span>
+            <ul class="outer_ul">
+                <li>
+                    <a href="#" id="head_look">查看所有类型</a>
+                </li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">所有产品</a></li>
+                <li><a href="#">博客</a></li>
+                <li><a href="#">文章列表</a></li>
+            </ul>
+        </div>
+        <div class="head_right">
+            <span class="ling" style="margin-left: 10px;font-weight: 700">4</span>
+            <a href="cart.html"><span class="icon iconfont icon-gouwuche" style="margin-top: -5px"></span></a>
+            <a href="./register.html" target="_parent">注册</a>
+            <span>|</span>
+            <a href="logo.html" target="_parent">登录</a>
+            <span class="icon iconfont icon-sousuo" style="margin-right: 22%"></span>
+        </div>
+    </div>
+    <div class="head_top">
+        <div class="head_top_center">
+            <div class="center_one">
+                <ul class="inner_ul">
+                    <li><a href="#">不锈钢</a></li>
+                    <li><a href="#">原料水泥</a></li>
+                    <li><a href="#">塑料</a></li>
+                    <li><a href="#">木质</a></li>
+                    <li><a href="#">陶瓷</a></li>
+                </ul>
+            </div>
+            <div class="center_one">
+                <div><a href="loupe.html"><img src="../image/top1.png"/></a></div>
+                <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="#" class="cha3"><span>查看详情</span></a>
+            </div>
+            <div class="center_one">
+                <div><a href="loupe.html"><img src="../image/top2.png"/></a></div>
+                <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="#" class="cha3"><span>查看详情</span></a>
+            </div>
+            <div class="center_one">
+                <div><a href="loupe.html"><img src="../image/top3.png"/></a></div>
+                <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                <div><span>￥450.00</span></div>
+                <a href="#" class="cha3"><span>查看详情</span></a>
+            </div >
+        </div>
+    </div>
+
+</div>
+<script>
+    $("#head_look").mouseenter(function () {
+        $(".head_top").css("height",380).show();
+    });
+    $(".head_top").mouseleave(function () {
+        $(".head_top").hide();
+    })
+</script>
+<!--上面的轮播图-->
+    <div class="head_down">
+        <ul class="head_down_list">
+            <li><img src="../image/head_down.png"/></li>
+            <li><img src="../image/head_down1.png"/></li>
+            <li><img src="../image/head_down2.png"/></li>
+        </ul>
+        <div class="focusList">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+<script src="../js/head_down.js"></script>
+<!--第一个板块-->
+    <div class="subject1">
+        <div class="top">
+            <div class="top_a">
+                <a href="#">新品推荐，精心挑选</a>
+            </div>
+            <div class="top_span">
+                <span>家居必备实用小单品</span>
+            </div>
+        </div>
+        <div class="subject1_down">
+            <div class="subject1_tu">
+               <div class="subject1_tu_bao">
+                   <div class="subject1_tu_one">
+                       <a href="#" class="one1"> <img src="../image/subject1_1.png" title="便携简约清扫扫帚"/></a>
+                       <a href="#" class="two1">
+                           <i class="font">便携简约清扫扫帚</i>
+                           <span class="money">￥580.00</span>
+                       </a>
+                   </div>
+                   <div class="subject1_tu_one">
+                       <a href="#" class="one1"> <img src="../image/subject1_2.png" title="简约多拼接彩色木制积木"/></a>
+                       <a href="#" class="two1">
+                           <i class="font">简约多拼接彩色木制积木</i>
+                           <span class="money">￥300.00</span>
+                       </a>
+                   </div>
+                   <div class="subject1_tu_one">
+                       <a href="#" class="one1"> <img src="../image/subject1_3.png" title="黑陶自然花香蜡烛"/></a>
+                       <a href="#" class="two1">
+                           <i class="font">黑陶自然花香蜡烛</i>
+                           <span class="money">￥580.00</span>
+                       </a>
+                   </div>
+                   <div class="subject1_tu_one">
+                       <a href="#" class="one1"> <img src="../image/subject1_4.png" title="简约时尚水泥花瓶"/></a>
+                       <a href="#" class="two1">
+                           <i class="font">简约时尚水泥花瓶</i>
+                           <span class="money">￥450.00</span>
+                       </a>
+                   </div>
+                   <div class="subject1_tu_one">
+                       <a href="#" class="one1"> <img src="../image/subject1_5.png" title="简约时尚水泥花瓶"/></a>
+                       <a href="#" class="two1">
+                           <i class="font">简约木制餐盘</i>
+                           <span class="money">￥300.00</span>
+                       </a>
+                   </div>
+                   <div class="subject1_tu_one">
+                       <a href="#" class="one1"> <img src="../image/subject1_6.png" title="简约时尚水泥花瓶"/></a>
+                       <a href="#" class="two1">
+                           <i class="font">不锈钢咖啡水壶</i>
+                           <span class="money">￥400.00</span>
+                       </a>
+                   </div>
+                   <div class="subject1_tu_one">
+                       <a href="#" class="one1"> <img src="../image/subject1_7.png" title="简约时尚水泥花瓶"/></a>
+                       <a href="#" class="two1">
+                           <i class="font">经典系列计算机</i>
+                           <span class="money">￥580.00</span>
+                       </a>
+                   </div>
+               </div>
+            </div>
+            <span class="icon iconfont icon-fanhui-l"></span>
+            <span class="icon iconfont icon-gengduo"></span>
+        </div>
+        <span class="clean"></span>
+    </div>
+<script src="../js/subject1.js"></script>
+<!--第二个板块-->
+    <div class="subject2">
+        <div class="top">
+            <div class="top_a">
+                <a href="#">主题活动,限时促销</a>
+            </div>
+            <div class="top_span">
+                <span>严选材质，用心设计，精致家居生活</span>
+            </div>
+        </div>
+        <div class="tu3">
+            <a href="#" class="one2">
+                <img src="../image/1.1.jpg"/>
+                <span class="one22"></span>
+            </a>
+            <a href="#" class="two2">
+                <img src="../image/1.2.jpg"/>
+                <span class="two22"></span>
+            </a>
+            <a href="#" class="three2">
+                <img src="../image/1.3.jpg"/>
+                <span class="three22"></span>
+            </a>
+        </div>
+        <span class="clean"></span>
+    </div>
+<!--第三个板块-->
+    <div class="subject3">
+        <div class="top">
+            <div class="top_a">
+                <a>青竹良品,你的家居首选</a>
+            </div>
+            <div class="top_span">
+                <span>天然之源,诚挚之礼,严格质检</span>
+            </div>
+        </div>
+        <div class="center">
+            <div class="left">
+                <div class="left1">
+                    <a href="#" class="ban">
+                        <img src="../image/1.jpg"/>
+                        <span class="cha3"></span>
+                    </a>
+                </div>
+                <div class="left2" style="margin-top: 10px">
+                    <a href="#" class="ban">
+                        <img src="../image/6.png"/>
+                        <span class="cha3"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="cen">
+                <ul>
+                    <li>
+                        <div><a href="loupe.html"><img src="../image/2.png" /></a></div>
+                        <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                        <div><span>￥450.00</span></div>
+                        <a href="#" class="cha3"><span>查看详情</span></a>
+                    </li>
+                    <li>
+                        <div><a href="loupe.html"><img src="../image/3.png" /></a></div>
+                        <div class="b"><a href="#">黑陶自然花香蜡烛</a></div>
+                        <div ><span>￥580.00</span></div>
+                        <a href="#" class="cha3"><span>查看详情</span></a>
+                    </li>
+                    <li>
+                        <div><a href="loupe.html"><img src="../image/4.png" /></a></div>
+                        <div class="b"><a href="#">黑陶器具</a></div>
+                        <div><span>￥450.00</span></div>
+                        <a href="#" class="cha3"><span>查看详情</span></a>
+                    </li>
+                    <li style="margin-right: 0">
+                        <div><a href="loupe.html"><img src="../image/5.png" /></a></div>
+                        <div class="b"><a href="#">简单大容量瓷碗</a></div>
+                        <div><span>￥150.00</span></div>
+                        <a href="#" class="cha3"><span>查看详情</span></a>
+                    </li>
+                    <li>
+                        <div><a href="loupe.html"><img src="../image/7.png" /></a></div>
+                        <div class="b"><a href="#">经典系列时钟</a></div>
+                        <div><span>￥580.00</span></div>
+                        <a href="#" class="cha3"><span>查看详情</span></a>
+                    </li>
+                    <li>
+                        <div><a href="loupe.html"><img src="../image/8.png" /></a></div>
+                        <div class="b"><a href="#">不锈钢汤勺</a></div>
+                        <div><span>￥120.00</span></div>
+                        <a href="#" class="cha3"><span>查看详情</span></a>
+                    </li>
+                    <li>
+                        <div><a href="loupe.html"><img src="../image/9.png" /></a></div>
+                        <div class="b"><a href="#">不锈钢夹子</a></div>
+                        <div><span>￥120.00</span></div>
+                        <a href="#" class="cha3"><span>查看详情</span></a>
+                    </li>
+                    <li>
+                        <div><a href="loupe.html"><img src="../image/2.png" /></a></div>
+                        <div class="b"><a href="#">不锈钢大号汤勺</a></div>
+                        <div><span>￥120.00</span></div>
+                        <a href="#" class="cha3"><span>查看详情</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="clean"></span>
+    </div>
+<!--第四个板块-->
+    <div class="subject4">
+        <div class="top">
+            <div class="top_a">
+                <a href="#">全球大牌优选，买手用心挑选</a>
+            </div>
+            <div class="top_span">
+                <span>全球好货 原装正品 海外直邮 自有保税仓</span>
+            </div>
+        </div>
+        <div class="tu4">
+            <a href="#" class="one4">
+                <img src="../image/subject4_1.jpg"/>
+                <span class="one44"></span>
+            </a>
+            <div class="two4">
+               <a href="#" class="two4_1">
+                   <img src="../image/subject4_2.jpg"/>
+                   <span class="two44_1"></span>
+               </a>
+               <a href="#" class="two4_2" style="margin-top: 7px">
+                   <img src="../image/subject4_3.jpg"/>
+                   <span class="two44_2"></span>
+               </a>
+
+            </div>
+            <a href="#" class="three4">
+                <img src="../image/subject4_4.jpg"/>
+                <span class="three44"></span>
+            </a>
+            <span class="clean"></span>
+            <div class="five">
+                <ul>
+                    <li class="subject_five_li">
+                        <a href="#">
+                            <span><img src="../image/subject4_1.png" /></span>
+                            <em>自然生活，精选用料</em>
+                        </a>
+                    </li>
+                    <li class = "subject_five_li">
+                        <a href="#">
+                            <span><img src="../image/subject4_2.png" /></span>
+                            <em>源点生活</em>
+                        </a>
+                    </li>
+                    <li class = "subject_five_li">
+                        <a href="#">
+                            <span> <img src="../image/subject4_3.png" /></span>
+                            <em>puree好设计好生活</em>
+                        </a>
+                    </li>
+                    <li class = "subject_five_li">
+                        <a href="#">
+                            <span><img src="../image/subject4_4.png"/></span>
+                            <em>家居精品之选</em>
+                        </a>
+                    </li>
+                    <li class = "subject_five_li" style="padding-right: 0;margin-right: 0">
+                        <a href="#">
+                            <span> <img src="../image/subject4_5.png" /></span>
+                            <em>木香，手工制作</em>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="clean"></span>
+    </div>
+<script>
+    $(".subject_five_li").mouseover(function () {
+        $(this).find("img").stop().animate({
+            marginLeft:-50
+        },500);
+    }).mouseout(function () {
+        $(this).find("img").stop().animate({
+            marginLeft:0
+        },200);
+    })
+</script>
+<!--第五个板块-->
+    <div class="subject5">
+        <div class="top">
+            <div class="top_a">
+                <a href="#">良品体验</a>
+            </div>
+            <div class="top_span">
+                <span>用户反馈，使我们改进的目标</span>
+            </div>
+        </div>
+        <div class="subject5_tu">
+            <ul>
+                <li>
+                    <div class="subject5_tu_div">
+                        <div class="subject5_tu_div_one">
+                            <img src="../image/subject5_1.png"/>
+                        </div>
+                        <div class="subject5_tu_div_two">
+                            <div>
+                                <span>天草陶石咖啡杯套装<em>¥299</em></span>
+                                <p>
+                                    使用了粉碎高品质的天草陶石后提炼而成的土，制作了泛着淡青色的白瓷。用餐时可以记住
+                                    食品名称、体会新鲜口味···可对颜色和口味、气味、口感逐个品味，从中感受用餐的乐
+                                    趣，同时还可自然而然地了解日本饮食文化
+                                </p>
+                                <i>alice 2016-12-16 09:59</i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject5_tu_div">
+                        <div class="subject5_tu_div_one">
+                            <img src="../image/subject5_2.png"/>
+                        </div>
+                        <div class="subject5_tu_div_two">
+                            <div>
+                                <span>骨瓷印花餐具<em>¥699</em></span>
+                                <p>
+                                    使用了粉碎高品质的天草陶石后提炼而成的土，制作了泛着淡青色的白瓷。用餐时可以
+                                    记住食品名称、体会新鲜口味···可对颜色和口味、气味、口感逐个品味，从中感受
+                                    用餐的乐趣，同时还可自然而然地了解日本饮食文化
+                                </p>
+                                <i>王先生 2016-12-17 09:59</i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject5_tu_div">
+                        <div class="subject5_tu_div_one">
+                            <img src="../image/subject5_3.png"/>
+                        </div>
+                        <div class="subject5_tu_div_two">
+                            <div>
+                                <span>黑色帆布双肩包<em>¥299</em></span>
+                                <p>
+                                    挺好的，尺码真的很正！背部拉链设计，放心出行，为短途商旅贴心设计。防水尼龙与
+                                    牛皮的优雅结合，轻便小巧，简约百搭，防水尼龙，可折叠双肩背包
+                                </p>
+                                <i>爱丽丝 2016-12-10 07:59</i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="margin-right: 0">
+                    <div class="subject5_tu_div">
+                        <div class="subject5_tu_div_one">
+                            <img src="../image/subject5_4.png"/>
+                        </div>
+                        <div class="subject5_tu_div_two">
+                            <div>
+                                <span>桌面书籍收纳组合套装<em>¥199</em></span>
+                                <p>
+                                    挺好的，特别暖，尺码真的很正！就是靴口太小了，要提着穿，心好累哦，本来都是一脚蹬
+                                    来着，不过看在你这么暖的份上就原谅你了哈哈哈。真的可以媲美油叽叽，很开心。
+                                    ------三石是我男神
+                                </p>
+                                <i>小蚂蚁 2016-12-15 08:00</i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!--尾部-->
+    <iframe src="down.html" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
+
+</body>
+</html>

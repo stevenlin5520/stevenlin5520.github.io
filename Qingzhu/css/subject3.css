@@ -1,0 +1,94 @@
+.center{
+    width: 1140px;
+    height: 640px;
+    margin: 0 auto;
+}
+.center .left{
+    width: 220px;
+    height: auto;
+    float: left;
+
+}
+.left1,.left2{
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    width: 220px;
+    height: 309px;
+    margin-bottom: -5px;
+}
+.center .left1 img,.left2 img{
+    display: block;
+    width: 220px;
+    height: 309px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border: 0;
+}
+.center .cen li{
+    position: relative;
+    float: left;
+    list-style: none;
+    display: block;
+    width: 220px;
+    left: 5px;
+    top: 40px;
+    height: 309px;
+    overflow: hidden;
+    margin: 0 5px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+}
+.cen{
+    background-color: #e6d6c6;
+}
+.center .cen li img{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    line-height: 220px;
+    margin-bottom: 17px;
+}
+.center .cen  span{
+
+     display: block;
+     text-align: center;
+ }
+.b{
+    width: 220px;
+    height: 32px;
+    text-align: center;
+}
+.b a{
+    color: #333;
+    font-size: 12px;
+}
+/*遮罩层*/
+.cha3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    /*鼠标穿透*/
+    pointer-events: none;
+}
+.left1:hover .cha3,.left2:hover .cha3,.cen li:hover .cha3{
+    background-color: rgba(0,0,0,0.2);
+    transition: all 1s;
+}
+.cen li .cha3 span{
+    margin: 0 50px;
+    font-size: 14px;
+    color: rgba(0,0,0,0);
+}
+
+.cen li:hover .cha3 span{
+    position: relative;
+    top: 50%;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: #c78a49;
+}

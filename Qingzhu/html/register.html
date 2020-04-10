@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>青竹_regist</title>
+<head>
+    <meta charset="UTF-8">
+    <title>青竹_logo</title>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/logo.css">
+    <script src="../js/jquery_3.1.1.js"></script>
+    <link rel="stylesheet" href="../css/head.css">
+
+<body>
+    <div class="head_out">
+        <div class="head">
+            <div class="head_left">
+                <span class="logo"><img src="../image/logo.png" height="36" width="142"/></span>
+                <ul class="outer_ul">
+                    <li>
+                        <a href="#" id="head_look">查看所有类型</a>
+                    </li>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#">所有产品</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">文章列表</a></li>
+                </ul>
+            </div>
+            <div class="head_right">
+                <span class="ling" style="margin-left: 10px;font-weight: 700">4</span>
+                <a href="cart.html"><span class="icon iconfont icon-gouwuche" style="margin-top: -5px"></span></a>
+                <a href="./register.html" target="_parent">注册</a>
+                <span>|</span>
+                <a href="logo.html" target="_parent">登录</a>
+                <span class="icon iconfont icon-sousuo" style="margin-right: 22%"></span>
+            </div>
+        </div>
+        <div class="head_top">
+            <div class="head_top_center">
+                <div class="center_one">
+                    <ul class="inner_ul">
+                        <li><a href="#">不锈钢</a></li>
+                        <li><a href="#">原料水泥</a></li>
+                        <li><a href="#">塑料</a></li>
+                        <li><a href="#">木质</a></li>
+                        <li><a href="#">陶瓷</a></li>
+                    </ul>
+                </div>
+                <div class="center_one">
+                    <div><a href="#"><img src="../image/top1.png"/></a></div>
+                    <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                    <div><span>￥450.00</span></div>
+                    <a href="#" class="cha3"><span>查看详情</span></a>
+                </div>
+                <div class="center_one">
+                    <div><a href="#"><img src="../image/top2.png"/></a></div>
+                    <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                    <div><span>￥450.00</span></div>
+                    <a href="#" class="cha3"><span>查看详情</span></a>
+                </div>
+                <div class="center_one">
+                    <div><a href="#"><img src="../image/top3.png"/></a></div>
+                    <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                    <div><span>￥450.00</span></div>
+                    <a href="#" class="cha3"><span>查看详情</span></a>
+                </div >
+            </div>
+        </div>
+
+    </div>
+    <script>
+        $("#head_look").mouseenter(function () {
+            $(".head_top").css("height",380).show();
+        });
+        $(".head_top").mouseleave(function () {
+            $(".head_top").hide();
+        })
+    </script>
+
+<!--中间logo-->
+<div class="centen">
+    <div class="form">
+        <p class="logo">登录</p>
+        <form action="index.html" method="get">
+            <div class="center_font">
+                <span class="font">手机/邮箱/用户名</span>
+                <input type="text" name="username" class="remove">
+            </div>
+            <div class="center_font">
+                <span class="font">设置密码</span>
+                <input type="password" name="password" class="remove">
+            </div>
+            <div class="center_font">
+                <span class="font">确认密码</span>
+                <input type="password" name="repassword" class="remove">
+            </div>
+            <div>
+                <span class="regist_logo">已有账号?请<a href="logo.html">直接登录</a></span>
+            </div>
+            <input type="submit" id="submit" value="注册"  class="logoinp">
+        </form>
+        <div class="form_down">
+            <span>社交账号登录</span>
+            <div>
+                <ul>
+                    <li><a href="#"><span class="icon iconfont icon-weixin"></span></a></li>
+                    <li><a href="#"><span class="icon iconfont icon-qq"></span></a></li>
+                    <li><a href="#"><span class="icon iconfont icon-wangyi1"></span></a></li>
+                    <li><a href="#"><span class="icon iconfont icon-douban"></span></a></li>
+                    <li><a href="#"><span class="icon iconfont icon-weibo"></span></a></li>
+                    <li><a href="#"><span class="icon iconfont icon-renren"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <script src="../js/regist.js"></script>
+
+<iframe src="down.html" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
+</body>
+</html>

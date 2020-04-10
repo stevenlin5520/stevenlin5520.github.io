@@ -1,0 +1,117 @@
+/*公共尾部*/
+a{
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+}
+.subject6{
+    min-height: 270px;
+    margin-top: -10px;
+}
+.subject6 .subject6_6{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1142px;
+    padding-top: 30px;
+    max-height: 435px;
+
+}
+/*.subject6 .subject6_one*/
+.subject6 .subject6_one{
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: auto;
+    max-height: 170px;
+    overflow: hidden;
+}
+.subject6 .subject6_one img{
+    width: 35%;
+    height: auto;
+}
+.subject6 .subject6_one p{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 12px 0 14px 0;
+    font-size: 13px;
+    font-family: "Adobe 楷体 Std R";
+    color: rgba(0,0,0,0.5);
+    transition: 1s;
+}
+.subject6 .subject6_one p:hover{
+    color: rgba(255,100,10,0.5);
+    transition: 1s;
+}
+
+/*.subject6 .subject6_two*/
+.subject6 .subject6_two{
+    position: absolute;
+    float: left;
+    margin-left: 30%;
+    width: 40%;
+    height: auto;
+    max-height: 170px;
+    overflow: hidden;
+}
+.subject6 .subject6_two dl{
+    float: left;
+    width: 33.3%;
+}
+.subject6 .subject6_two dl a{
+    color: rgba(0,0,0,0.7);
+}
+.subject6 .subject6_two dl a:hover{
+    color: rgba(255,100,10,0.5);
+    transition: 1s;
+}
+.subject6 .subject6_two dl dt{
+    height: 40px;
+    font-size: 15px;
+    margin-left: 25%;
+}
+.subject6 .subject6_two dl dd{
+    height: 31px;
+    font-size: 13px;
+    margin-left: 25%;
+
+}
+
+/*.subject6 .subject6_three*/
+.subject6 .subject6_three{
+    position: absolute;
+    float: left;
+    margin-left: 70%;
+    width: 30%;
+    height: auto;
+    max-height: 170px;
+    overflow: hidden;
+
+}
+.subject6 .subject6_three div{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+.subject6 .subject6_three div img{
+    display: block;
+    width: 90%;
+    height: auto;
+}
+.subject6 .subject6_three div p{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    transition: 1s;
+    line-height: 20px;
+    height: 20px;
+}
+.subject6 .subject6_three div p:hover{
+    color: rgba(255,100,10,0.5);
+    transition: 1s;
+}

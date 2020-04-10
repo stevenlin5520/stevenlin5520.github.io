@@ -1,0 +1,90 @@
+.subject5{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f4f0ea;
+}
+.subject5_tu{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1142px;
+    margin-top: 15px;
+    height: 405px;
+}
+.subject5_tu li{
+    width: 24.25%;
+    list-style: none;
+    float: left;
+    margin-right: 1%;
+}
+/*图片字和特效*/
+.subject5_tu_div{
+    width: 100%;
+}
+/*包括图片和字*/
+.subject5_tu_div_one{
+    width: 100%;
+    margin-right: 10px;
+    height: auto;
+    overflow: hidden;
+}
+.subject5_tu_div_one img{
+    width: 100%;
+    transition: 2s;
+}
+.subject5_tu_div_one img:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.subject5_tu_div_two{
+    position: absolute;
+    /*background-color: rgba(0,255,0,0.3);*/
+    background-color: white;
+    width: 24.25%;
+    margin-right: 10px;
+    margin-top: -4px;
+    height: 30%;
+}
+/*里面的白色*/
+.subject5_tu_div_two div{
+    position: absolute;
+    width: 94%;
+    height: 100%;
+    margin: -5px 3% 0 3%;
+    background-color: white;
+}
+.subject5_tu_div_two span{
+    display: block;
+    margin: 10px 0;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: 600;
+}
+.subject5_tu_div_two span em{
+    display: block;
+    float: right;
+    color:rgba(255,69,0,0.6) ;
+}
+.subject5_tu_div_two p{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 60%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: rgba(0,0,0,0.7);
+}
+.subject5_tu_div_two i{
+    display: block;
+    width: 100%;
+    padding-top: 90px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.7);
+    background-color:white;
+}

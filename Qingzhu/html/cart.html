@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery_3.1.1.js"></script>
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+
+</head>
+<body>
+<!--头部-->
+    <div class="head_out">
+        <div class="head">
+            <div class="head_left">
+                <span class="logo"><img src="../image/logo.png" height="36" width="142"/></span>
+                <ul class="outer_ul">
+                    <li>
+                        <a href="#" id="head_look">查看所有类型</a>
+                    </li>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">所有产品</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">文章列表</a></li>
+                </ul>
+            </div>
+            <div class="head_right">
+                <span class="ling" style="margin-left: 10px;font-weight: 700">4</span>
+                <a href="cart.html"><span class="icon iconfont icon-gouwuche" style="margin-top: -5px;"></span></a>
+                <a href="./register.html" target="_parent">注册</a>
+                <span>|</span>
+                <a href="logo.html" target="_parent">登录</a>
+                <span class="icon iconfont icon-sousuo" style="margin-right: 22%"></span>
+            </div>
+        </div>
+        <div class="head_top">
+            <div class="head_top_center">
+                <div class="center_one">
+                    <ul class="inner_ul">
+                        <li><a href="#">不锈钢</a></li>
+                        <li><a href="#">原料水泥</a></li>
+                        <li><a href="#">塑料</a></li>
+                        <li><a href="#">木质</a></li>
+                        <li><a href="#">陶瓷</a></li>
+                    </ul>
+                </div>
+                <div class="center_one">
+                    <div><a href="#"><img src="../image/top1.png"/></a></div>
+                    <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                    <div><span>￥450.00</span></div>
+                    <a href="#" class="cha3"><span>查看详情</span></a>
+                </div>
+                <div class="center_one">
+                    <div><a href="#"><img src="../image/top2.png"/></a></div>
+                    <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                    <div><span>￥450.00</span></div>
+                    <a href="#" class="cha3"><span>查看详情</span></a>
+                </div>
+                <div class="center_one">
+                    <div><a href="#"><img src="../image/top3.png"/></a></div>
+                    <div class="b"><a href="#">简约时尚水泥花瓶</a></div>
+                    <div><span>￥450.00</span></div>
+                    <a href="#" class="cha3"><span>查看详情</span></a>
+                </div >
+            </div>
+        </div>
+        <script>
+            $("#head_look").mouseenter(function () {
+                $(".head_top").css("height",380).show();
+            });
+            $(".head_top").mouseleave(function () {
+                $(".head_top").hide();
+            })
+        </script>
+    </div>
+    <div class="cart_out">
+        <div class="cart_inner">
+            <span class="cart_inner_car">购物车</span>
+            <div class="cart_out_one">
+                <input type="checkbox" value="choose" class="chooseAll">
+                <span class="img" style="margin-left: 60px">商品名称</span>
+                <span class="form_top">单价</span>
+                <span class="form_top">数量</span>
+                <span class="form_top">小计</span>
+                <span class="form_top">操作</span>
+            </div>
+            <div class="cart_out_two">
+                <ul>
+                    <li>
+                        <input type="checkbox" class="choose">
+                        <span class="img"><img src="../image/top1.png"/>花好月圆</span>
+                        <span class="price">100</span>
+                        <div style="display: inline-block"  class="innerBor">
+                            <a href="javaScript:void(0)" class="sub">-</a><span class="count">1</span><a href="javaScript:void(0)" class="add">+</a>
+                        </div>
+                        <span class="oneMoney"> 100</span>
+                        <span class="del">删除</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="choose">
+                        <span class="img"><img src="../image/top2.png"/>一个大碗</span>
+                        <span class="price">100</span>
+                        <div style="display: inline-block"  class="innerBor">
+                            <a href="javaScript:void(0)" class="sub">-</a><span class="count">1</span><a href="javaScript:void(0)" class="add">+</a>
+                        </div>
+                        <span class="oneMoney">100</span>
+                        <span class="del">删除</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="choose">
+                        <span class="img"><img src="../image/top3.png"/>这是啥</span>
+                        <span class="price">100</span>
+                        <div style="display: inline-block" class="innerBor">
+                            <a href="javaScript:void(0)" class="sub">-</a><span class="count">1</span><a href="javaScript:void(0)" class="add">+</a>
+                        </div>
+                        <span class="oneMoney">100</span>
+                        <span class="del">删除</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart_out_three_out">
+                <div class="cart_out_three">
+                    <input type="checkbox" class="chooseAll">
+                    <span class="delsel">删除</span>
+                    <p>已选商品<span class="allChoose">0</span>件</p>
+                    <p>共<span class="allMoney">0</span>元</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--最下面的一块-->
+    <iframe src="down.html" width="100%" height="400px" frameborder="0"></iframe>
+</body>
+    <script src="../js/cart.js"></script>
+</html>
